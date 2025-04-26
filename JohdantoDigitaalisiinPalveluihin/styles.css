@@ -12,22 +12,26 @@ header {
     padding-top: 30px;
     text-align: center;
 }
+
 .alisivu-sisalto {
     background-color: #3ED2B0;
-    display:flex;
+    display: flex;
     justify-content: space-around;
-    padding: 0px;
+    padding: 0;
 }
+
 h1 {
-    font-family: otsikko, "sans-serif";
+    font-family: Arial, sans-serif;
     font-size: 35px;
     color: #1A2B4C;
     text-align: center;
     padding-top: 30px;
 }
+
 h2, h3 {
-   font-family: "sans-serif";
+    font-family: Arial, sans-serif;
 }
+
 .esittely {
     padding-left: 20px;
 }
