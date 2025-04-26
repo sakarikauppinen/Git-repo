@@ -1,0 +1,33 @@
+/* General styles for the HTML site */
+body {
+    background-color: #3ED2B0;
+    color: #1A2B4C;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 40px 20px;
+}
+
+/* Header styles */
+header {
+    padding-top: 30px;
+    text-align: center;
+}
+.alisivu-sisalto {
+    background-color: #3ED2B0;
+    display:flex;
+    justify-content: space-around;
+    padding: 0px;
+}
+h1 {
+    font-family: otsikko, "sans-serif";
+    font-size: 35px;
+    color: #1A2B4C;
+    text-align: center;
+    padding-top: 30px;
+}
+h2, h3 {
+   font-family: "sans-serif";
+}
+.esittely {
+    padding-left: 20px;
+}
