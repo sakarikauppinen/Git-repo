@@ -35,3 +35,29 @@ h2, h3 {
 .esittely {
     padding-left: 20px;
 }
+/*
+nav a {
+    color: #1A2B4C;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-flexbox;
+    border: #1A2B4C 2px solid;
+}*/
+nav a {
+    color: #1A2B4C;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    border: 2px solid #1A2B4C;
+    padding: 10px 20px;
+    margin: 0 5px; /* Add spacing between the boxes */
+    text-align: center;
+    border-radius: 5px; 
+}
+nav a:hover {
+    color: #ffffff;
+}
+nav a.selected {
+    color: #ffffff; /* Text color for the selected link */
+    font-weight: bold; /* Optional: Make the selected link bold */
+}
