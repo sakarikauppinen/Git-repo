@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kun kädet loppuvat kesken - tilaa apukäsiä</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
     <nav>
         <ul>
             <li><a href="index.html">Etusivu</a></li>
-            <li><a href="tilaus.html">Tilaus</a></li>
+            <li><a href="tilaus.html" class="selected">Tilaus</a></li>
             <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
         </ul>
-        <figure>
-            <img class="kuva" src="kuvat/Apukädet logo.png" alt="logo">
-            
-            <figcaption>Apukädet logo</figcaption>
-        </figure>
-<head>
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<h2>Apukäsiä on saatavilla ympäri Suomea</h2>
-<body>
+    </nav>
+    <figure>
+        <img class="kuva" src="kuvat/Apukädet logo.png" alt="Apukädet logo">
+        <figcaption>Apukädet logo</figcaption>
+    </figure>
+    <h2>Apukäsiä on saatavilla ympäri Suomea</h2>
     <div class="button-container">
-        <button>Tilaa</button>
+        <button onclick="location.href='tilaus.html';">Tilaa</button>
     </div>
 </body>
-<!-- From Uiverse.io by adamgiebl --> 
+
+<footer>
+    <div class="footer-icons">
+        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    <div>
+        <p>&copy; 2025 Apukädet. Kaikki oikeudet pidätetään.</p>
+    </div>
+</footer>
 </html>
