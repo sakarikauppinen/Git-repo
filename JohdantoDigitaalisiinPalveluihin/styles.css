@@ -13,6 +13,7 @@ header {
     text-align: center;
 }
 
+/* General styles for subpage content */
 .alisivu-sisalto {
     background-color: #3ED2B0;
     display: flex;
@@ -20,6 +21,7 @@ header {
     padding: 0;
 }
 
+/* Heading 1 styles */
 h1 {
     font-family: Arial, sans-serif;
     font-size: 35px;
@@ -28,21 +30,25 @@ h1 {
     padding-top: 30px;
 }
 
+/* Heading 2 and 3 styles */
 h2, h3 {
     font-family: Arial, sans-serif;
+    text-align: center;
 }
 
+/* Introduction section */
 .esittely {
     padding-left: 20px;
 }
-/*
-nav a {
-    color: #1A2B4C;
-    text-decoration: none;
-    font-size: 20px;
-    display: inline-flexbox;
-    border: #1A2B4C 2px solid;
-}*/
+
+/* Image styles */
+.kuva {
+    max-width: 400px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* Navigation link styles */
 nav a {
     color: #1A2B4C;
     text-decoration: none;
@@ -50,14 +56,68 @@ nav a {
     display: inline-block;
     border: 2px solid #1A2B4C;
     padding: 10px 20px;
-    margin: 0 5px; /* Add spacing between the boxes */
+    margin: 0 5px; 
     text-align: center;
-    border-radius: 5px; 
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth hover effect */
 }
+
 nav a:hover {
+    background-color: #3ED2B0;
     color: #ffffff;
 }
+
 nav a.selected {
-    color: #ffffff; /* Text color for the selected link */
-    font-weight: bold; /* Optional: Make the selected link bold */
+    background-color: #ffffff;
+    color: #1A2B4C;
+    font-weight: bold;
+}
+
+/* Button styles */
+button {
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.7em 2em;
+    border: 3px solid #1A2B4C;
+    border-radius: 2px;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+    color: #1A2B4C;
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+}
+
+button:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: #1A2B4C;
+    z-index: -1;
+}
+
+button:hover, button:focus {
+    color: white;
+    background-color: #1A2B4C;
+    outline: none; 
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 10vh; /* Full viewport height */
 }
