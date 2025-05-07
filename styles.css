@@ -52,37 +52,37 @@ h2, h3 {
     vertical-align: middle;
 }
 
-/* Navigation menu styling */
+/* Navi tyylit ja muoto */
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center; /* Center the menu items */
+    justify-content: center;
 }
 
 nav ul li {
-    margin: 0 10px; /* Add spacing between menu items */
+    margin: 0 10px;
 }
 
 nav a {
-    display: inline-block; /* Ensure the text stays inside the box */
-    padding: 10px 20px; /* Add padding for the button-like appearance */
-    text-decoration: none; /* Remove underline */
-    color: white; /* Text color */
-    background-color: #007BFF; /* Button background color */
-    border-radius: 5px; /* Rounded corners */
-    text-align: center; /* Center the text */
-    font-size: 16px; /* Adjust font size */
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #1A2B4C;
+    border-radius: 5px; /*pyöreät kulmat*/
+    text-align: center;
+    font-size: 16px;
 }
 
 nav a:hover {
-    background-color: #0056b3; /* Darker background on hover */
+    background-color: #6e93b9; /* Darker background on hover */
     color: white; /* Ensure text remains visible */
 }
 
 nav a.selected {
-    background-color: #004080; /* Highlight the selected menu item */
+    background-color: #335eb2;
     font-weight: bold;
 }
 /* tekoäly auttanut tässä ja "button" koodi otettu vapaasta koodikirjastosta */
@@ -252,7 +252,7 @@ table th, table td {
     border: 1px solid black;
     padding: 8px;
     text-align: left;
-
+}
 /* Mobile koko
 @media (max-width: 600px) {
     nav a {
