@@ -1,4 +1,3 @@
-/* General styles for the HTML site */
 body {
     background-color: #3ED2B0;
     color: #1A2B4C;
@@ -7,13 +6,11 @@ body {
     margin: 40px 20px;
 }
 
-/* Header styles */
 header {
     padding-top: 30px;
     text-align: center;
 }
 
-/* General styles for subpage content */
 .alisivu-sisalto {
     background-color: #3ED2B0;
     display: flex;
@@ -27,7 +24,6 @@ p {
     text-align: center;
     padding-top: 30px;
 }
-/* Heading 1 styles */
 h1 {
     font-family: Arial, sans-serif;
     font-size: 35px;
@@ -42,19 +38,13 @@ h1 {
     text-align: center;
     padding-top: 30px;
 }
-
-/* Heading 2 and 3 styles */
 h2, h3 {
     font-family: Arial, sans-serif;
     text-align: center;
 }
-
-/* Introduction section */
 .esittely {
     padding-left: 20px;
 }
-
-/* Image styles */
 .kuva {
     max-width: 400px;
     vertical-align: middle;
@@ -85,8 +75,7 @@ nav a.selected {
     color: #1A2B4C;
     font-weight: bold;
 }
-
-/* Button styles */
+/* tekoäly auttanut tässä ja napin koodi otettu vapaasta koodikirjastosta */
 button {
     font-size: 18px;
     letter-spacing: 2px;
@@ -156,7 +145,7 @@ footer{
 }
 * {box-sizing:border-box}
 
-/* Slideshow container */
+/* Slideshow container/materiaaleista slideshow */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
@@ -245,7 +234,17 @@ footer{
   from {opacity: .4}
   to {opacity: 1}
 }
-/*mobiilikokonäkymä
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th, table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+/*mobiilikokonäkymä jäi tähän vaiheeseen*/
 @media (max-width: 600px) {
     nav a;
     {
