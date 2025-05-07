@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fi">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,53 +9,50 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Etusivu</a></li>
-            <li><a href="tilaus.html" class="selected">Tilaus</a></li>
-            <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
-        </ul>
-    </nav>
-    <figure>
-        <img class="kuva" src="kuvat/Puutarha.jpg" alt="Kuva puutarhasta">
-        <figcaption>Myös puutarha kuntoon apukäsillä!</figcaption>
-    </figure>
-    <h2>Apukäsiä on saatavilla ympäri Suomea</h2>
-    <table>
-        <tr>
-          <th>Työ</th>
-          <th>Hinta 30min</th>
-          <th>Viikonloppuisin</th>
-        </tr>
-        <tr>
-          <td>Puutarhanhoito</td>
-          <td>20&euro;</td>
-          <td>30&euro;</td>
-        </tr>
-        <tr>
-          <td>Kodin perushuolto</td>
-          <td>30&euro;</td>
-          <td>40&euro;</td>
-        </tr>
-        <tr>
-            <td>Siivoustyö</td>
-            <td>25&euro;</td>
-            <td>35&euro;</td>
-          </tr>
-      </table>
-    <div class="button-container">
-        <button onclick="location.href='tilaus.html';">Tilaa</button>
-    </div>
-
-<footer>
-    <div class="footer-icons">
-        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-        <a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
-        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-    </div>
-    <div>
-        <p>&copy; 2025 Apukädet. Kaikki oikeudet pidätetään.</p>
-    </div>
-</footer>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" aria-label="Etusivu">Etusivu</a></li>
+                <li><a href="tilaus.html" class="selected" aria-label="Tilaus">Tilaus</a></li>
+                <li><a href="yhteystiedot.html" aria-label="Yhteystiedot">Yhteystiedot</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <figure>
+            <img class="kuva" src="kuvat/Puutarha.jpg" alt="Kuva kauniista puutarhasta">
+            <figcaption>Myös puutarha kuntoon apukäsillä!</figcaption>
+        </figure>
+        <h2>Apukäsiä on saatavilla ympäri Suomea</h2>
+        <table>
+            <caption>Apukäsien palvelut ja hinnat</caption>
+            <tr>
+                <th scope="col">Työ</th>
+                <th scope="col">Hinta 30min</th>
+                <th scope="col">Viikonloppuisin</th>
+            </tr>
+            <tr>
+                <td>Puutarhanhoito</td>
+                <td>20&euro;</td>
+                <td>30&euro;</td>
+            </tr>
+            <tr>
+                <td>Kodin perushuolto</td>
+                <td>30&euro;</td>
+                <td>40&euro;</td>
+            </tr>
+            <tr>
+                <td>Siivoustyö</td>
+                <td>25&euro;</td>
+                <td>35&euro;</td>
+            </tr>
+        </table>
+        <div class="button-container">
+            <button onclick="location.href='tilaus.html';">Tilaa</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Apukädet. Kaikki oikeudet pidätetään.</p>
+    </footer>
 </body>
 </html>

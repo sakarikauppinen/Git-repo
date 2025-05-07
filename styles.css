@@ -75,7 +75,7 @@ nav a.selected {
     color: #1A2B4C;
     font-weight: bold;
 }
-/* tekoäly auttanut tässä ja napin koodi otettu vapaasta koodikirjastosta */
+/* tekoäly auttanut tässä ja "button" koodi otettu vapaasta koodikirjastosta */
 button {
     font-size: 18px;
     letter-spacing: 2px;
@@ -229,7 +229,6 @@ footer{
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
