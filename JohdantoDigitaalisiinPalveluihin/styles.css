@@ -20,7 +20,13 @@ header {
     justify-content: space-around;
     padding: 0;
 }
-
+p {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #1A2B4C;
+    text-align: center;
+    padding-top: 30px;
+}
 /* Heading 1 styles */
 h1 {
     font-family: Arial, sans-serif;
